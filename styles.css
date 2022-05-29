@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'clock-like' ;
+    src: url(./digital-7/digital-7.ttf);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#display{
+    width: 298px;
+    height: 80px;
+    line-height: 75px;
+    border: 1px solid black;
+    text-align: right;
+    margin-bottom: 5px;
+    background-color: #86926B;
+}
+
+button{
+    width: 67.5px;
+    height: 67.5px;
+    background-color:#B0BABB;
+    font-family: inherit;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#buttons{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.calc-body{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #252C2D;
+    background: linear-gradient(to bottom, #65787B, #84979A, #9AAAAC);
+    font-family: 'clock-like';
+    font-size: 40px;
+    border-radius: 10px;
+}
